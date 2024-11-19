@@ -73,6 +73,7 @@
     }
 
     .countdown {
+      flex-wrap: wrap;
       display: flex;
       justify-content: center;
       margin: 20px 0;
@@ -191,7 +192,7 @@
   <body>
     <header class="header">
       <div
-        style="display: flex; justify-content: space-around"
+        style="display: flex; justify-content: space-around; flex-wrap: wrap;"
         class="container"
       >
         <a href="#" class="logo">951.project</a>
@@ -221,11 +222,11 @@
     <section class="dont-miss">
       <div class="container">
         <h2>Не пропусти</h2>
-        <div class="event">
+        <div style="flex-wrap: wrap" class="event">
           <div class="event-image"></div>
           <div class="event-details">
             <h3>GLAMOUR</h3>
-            <p>
+            <p style="word-break: break-all">
               ОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписание
             </p>
             <p><strong>BLASE CLUB</strong></p>
