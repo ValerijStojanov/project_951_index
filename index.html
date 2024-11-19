@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>951.Project - Glamour</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+      background-color: #1e1e1e;
+      color: #ffffff;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header {
+      background-color: #111;
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 400;
+    }
+
+    .buy-ticket {
+      background-color: #d30be3;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .buy-ticket:hover {
+      background-color: #b209c5;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 0;
+      background: linear-gradient(135deg, #1e1e1e, #333);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero .glamour {
+      color: #d30be3;
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .time-box {
+      background: #333;
+      padding: 20px;
+      margin: 0 10px;
+      border-radius: 8px;
+      font-size: 1.2rem;
+    }
+
+    .dont-miss {
+      padding: 50px 0;
+      background-color: #222;
+    }
+
+    .event {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .event-image {
+      width: 300px;
+      height: 200px;
+      background-color: #555;
+      border-radius: 8px;
+    }
+
+    .event-details h3 {
+      color: #d30be3;
+    }
+
+    .flashback {
+      padding: 50px 0;
+      background-color: #1e1e1e;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 20px;
+    }
+
+    .carousel-item {
+      width: 300px;
+      height: 200px;
+      background-color: #555;
+      border-radius: 8px;
+    }
+
+    .carousel-controls {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .carousel-controls button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .carousel-controls button:hover {
+      background-color: #444;
+    }
+
+    .moments {
+      padding: 50px 0;
+      background-color: #222;
+    }
+
+    .moments-gallery {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .moment-item {
+      width: 150px;
+      height: 150px;
+      background-color: #555;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 150px;
+      font-size: 1rem;
+    }
+
+    .footer {
+      padding: 30px 0;
+      background-color: #111;
+      text-align: center;
+    }
+
+    .footer-info {
+      margin-bottom: 20px;
+    }
+
+    .footer .social a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .footer .social a:hover {
+      color: #d30be3;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div
+        style="display: flex; justify-content: space-around"
+        class="container"
+      >
+        <a href="#" class="logo">951.project</a>
+        <nav class="nav">
+          <a href="#">ВЕЧЕРИНКИ</a>
+          <a href="#">МОМЕНТЫ</a>
+          <a href="#">КОНТАКТЫ</a>
+          <a href="#">RU</a>
+        </nav>
+        <a href="#" class="buy-ticket">Купить билет</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>BLAZE CLUB<br /><span class="glamour">GLAMOUR</span></h1>
+        <div class="countdown">
+          <div class="time-box"><span>XX</span> дней</div>
+          <div class="time-box"><span>XX</span> часов</div>
+          <div class="time-box"><span>XX</span> минут</div>
+          <div class="time-box"><span>XX</span> секунд</div>
+        </div>
+        <a href="#" class="buy-ticket">Купить билет</a>
+      </div>
+    </section>
+
+    <section class="dont-miss">
+      <div class="container">
+        <h2>Не пропусти</h2>
+        <div class="event">
+          <div class="event-image"></div>
+          <div class="event-details">
+            <h3>GLAMOUR</h3>
+            <p>
+              ОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписание
+            </p>
+            <p><strong>BLASE CLUB</strong></p>
+            <p>Дата: XX/XX/XXXX</p>
+            <p>Время: XX:XX</p>
+            <a href="#" class="buy-ticket">Купить билет</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flashback">
+      <div class="container">
+        <h2>Flashback</h2>
+        <div class="carousel">
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+        </div>
+        <div class="carousel-controls">
+          <button class="prev">&#8249;</button>
+          <button class="next">&#8250;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="moments">
+      <div class="container">
+        <h2>Моменты</h2>
+        <div class="moments-gallery">
+          <div class="moment-item">@madmaria</div>
+          <div class="moment-item">@madmaria</div>
+          <div class="moment-item">@madmaria</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-info">
+          <p>&copy; 2023 951 Project. Все права защищены.</p>
+          <div class="social">
+            <a href="#">Project951</a>
+            <a href="#">951.Project</a>
+            <a href="#">_project951</a>
+            <a href="#">@vova_prague</a>
+          </div>
+        </div>
+        <a href="#" class="buy-ticket">Купить билет</a>
+      </div>
+    </footer>
+  </body>
+</html>
